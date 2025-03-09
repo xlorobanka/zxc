@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 40px auto;
+    gap: 80px;
+}
+
+.text-container {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #9C9C9C;
+    max-width: 550px;
+}
+
+/* Размещение блоков в шахматном порядке */
+.text-image-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.text-image-block1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+.header {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer {
+    background-color: #D00000; /* Красный цвет */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
